@@ -1,11 +1,11 @@
+// Start
+
 #include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
 	int t;
 	cin>>t;
-	// input the number of test cases
 	while(t--)
 	{
 	    int n;
@@ -22,3 +22,5 @@ int main() {
 	}
 	return 0;
 }
+
+// END
