@@ -5,7 +5,9 @@ using namespace std;
 
 int main() {
 	int t;
+	int tt,ff;
 	cin>>t;
+	tt=t;
 	while(t--)
 	{
 	    int n;
