@@ -1,10 +1,7 @@
-// C++ program to implement recursive Binary Search
 #include <bits/stdc++.h>
 using namespace std;
 
-// A recursive binary search function. It returns
-// location of x in given array arr[l..r] is present,
-// otherwise -1
+// Start
 int binarySearch(int arr[], int l, int r, int x)
 {
 	if (r >= l) {
@@ -25,8 +22,7 @@ int binarySearch(int arr[], int l, int r, int x)
 		return binarySearch(arr, mid + 1, r, x);
 	}
 
-	// We reach here when element is not
-	// present in array
+	// Return -1
 	return -1;
 }
 
@@ -41,3 +37,5 @@ int main(void)
 		: cout << "Element is present at index " << result;
 	return 0;
 }
+
+// End
