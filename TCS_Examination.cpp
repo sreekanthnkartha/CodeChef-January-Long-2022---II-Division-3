@@ -1,4 +1,6 @@
 #include <iostream>
+#include<bits/stdc++.h>
+
 using namespace std;
 
 int main() {
@@ -6,7 +8,7 @@ int t;
 cin>>t;
 while(t--)
 {
-    int a,b,c,x,y,z;
+    int a,b,c,x,y,z,p,q,r,s,t;
     cin>>a>>b>>c>>x>>y>>z;
     int s1=a+b+c,s2=x+y+z;
     if(s1>s2)
