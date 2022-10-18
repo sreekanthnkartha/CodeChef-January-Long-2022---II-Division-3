@@ -3,12 +3,15 @@
 
 using namespace std;
 
+// Driver Code
+
 int main() {
 int t;
 cin>>t;
 while(t--)
 {
     int a,b,c,x,y,z,p,q,r,s,t;
+	// Input
     cin>>a>>b>>c>>x>>y>>z;
     int s1=a+b+c,s2=x+y+z;
     if(s1>s2)
@@ -30,3 +33,5 @@ while(t--)
 }
 	return 0;
 }
+
+// END
